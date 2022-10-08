@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    list-style-type: none;
+}
+
+div {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    --background: #012e52;
+    --primary: #c35d4d;
+    --secondary: #fefdfd;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&family=Roboto+Mono:wght@300;400;700&family=Silkscreen&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+nav{
+    border: 2px red;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 560px) {
+   nav {
+    gap: 10;
+   } 
+}
+nav > ul{
+    display: flex;
+    gap: 2rem;
+
+}

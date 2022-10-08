@@ -1,4 +1,4 @@
-const app2 = document.querySelector("#app2");
+const app2 = document.querySelector(".hero");
 
 export const initTeams = () => {
     getTeams();
@@ -6,7 +6,7 @@ export const initTeams = () => {
 
 const getTeams = async () => {
     try {
-      const rawTeams = await fetch("http://localhost:3000/Teams");
+      const rawTeams = await fetch("http://localhost:3000/teams");
       const jsonTeams = await rawTeams.json();
       transformTeams(jsonTeams)
       console.log(jsonTeams); 
@@ -26,7 +26,7 @@ const transformTeams = (teams) => {
     }))
 printTeams(mappedTeams)
 };
-console.log(transformTeams);
+
 // const printTeams = (teams) => {
 //     for (const team of teams) {
 //       const teamDiv = `
@@ -44,10 +44,12 @@ console.log(transformTeams);
       teams.forEach((finalTeams) => {
         app2.innerHTML += `
           <div>
-            <h3>${teams.name}</h3>
-            <p>${teams.manager}</p>
-            <p>${teams.country}</p>
+            <h4>${finalTeams.name}</h3>
+            <p>${finalTeams.manager}</p>
+            <p>${finalTeams.country}</p>
+            <p>${finalTeams.competition}</p>
+            <img src=${finalTeams.shield} alt=${finalTeams.shield} />
           </div>
-          ;`
+          `
       })
     };

@@ -1,5 +1,5 @@
 {
-    "Players": [
+    "players": [
     { 
      "id": 1,
      "name": "Leo Messi",
@@ -43,7 +43,7 @@
      "team": "Liverpool",
      "foot": "Zurdo",
      "nation": "Egipto",
-     "img": "https://images.wallpapersden.com/image/download/mohamed-salah-liverpool-and-egyptian-football-player_am1uZ2WUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+     "img": "https://wallpapers.com/images/hd/mohamed-salah-in-action-ksghg52hmgdkvw7v.jpg"
     },
     {
      "id": 6,
@@ -52,10 +52,12 @@
      "team": "Real Madrid",
      "foot": "Diestro",
      "nation": "Francés",
-     "img": "https://images.wallpapersden.com/image/download/karim-benzema-4k-real-madrid_bWZnbGmUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+     "img": "https://icdn.football-espana.net/wp-content/uploads/2020/10/Benzema.jpg"
     }
-    ],
 
+
+
+],
 "teams": [
     {
     "id": 1,
@@ -63,7 +65,7 @@
     "manager": "Xavi Hernández",
     "country": "Spain",
     "competition": "La Liga Santander",
-    "shield": "https://images.wallpapersden.com/image/download/karim-benzema-4k-real-madrid_bWZnbGmUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+    "shield": "/public/images/Barsa.png"
     },
     {
     "id": 2,

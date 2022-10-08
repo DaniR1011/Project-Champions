@@ -1,4 +1,4 @@
-const app = document.querySelector("#app");
+const app = document.querySelector(".hero");
 
 export const init = () => {
     getPlayers();
@@ -6,7 +6,7 @@ export const init = () => {
 
 const getPlayers = async () => {
     try {
-      const rawPlayers = await fetch("http://localhost:3000/Players");
+      const rawPlayers = await fetch("http://localhost:3000/players");
       const jsonPlayers = await rawPlayers.json();
       transformPlayers(jsonPlayers)
       console.log(jsonPlayers); 
@@ -28,11 +28,15 @@ printPLayers(mappedPLayers)
 };
 
 const printPLayers = (players) => {
+    app.innerHTML = "";
     for (const player of players) {
       const playerFigure = `
       <figure class="player">
         <h3>${player.name}</h3>
         <p>${player.age} years old</p>
+        <p>${player.team}</p>
+        <p>${player.foot}</p>
+        <p>${player.nation}</p>
         <img src=${player.img} alt=${player.img} />
       </figure>
       `  
