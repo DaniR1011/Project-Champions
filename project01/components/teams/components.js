@@ -40,11 +40,12 @@ printTeams(mappedTeams)
 //     }
 
     const printTeams = (teams) => {
-      app2.innerHTML = "";
+      app2.innerHTML = "<h2>Teams</h2>";
       teams.forEach((finalTeams) => {
         app2.innerHTML += `
           <div>
-            <h4>${finalTeams.name}</h3>
+            <h1>${finalTeams.name}</h1>
+            <hr>
             <p>${finalTeams.manager}</p>
             <p>${finalTeams.country}</p>
             <p>${finalTeams.competition}</p>

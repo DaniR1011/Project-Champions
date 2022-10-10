@@ -14,9 +14,9 @@ div {
 }
 
 :root {
-    --background: #012e52;
-    --primary: #c35d4d;
-    --secondary: #fefdfd;
+    --background: #2c515d;
+    --primary: #fafafa;
+    --secondary: #ce5149;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&family=Roboto+Mono:wght@300;400;700&family=Silkscreen&display=swap');
@@ -33,6 +33,23 @@ h1,h2,h3{
     text-transform: uppercase;
 }
 
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 15px;
+}
+
+.hero > p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 30px;
+}
+
+.footer {
+    text-align: center;
+    align-items: center;
+}
+
 nav{
     border: 2px red;
     height: 15vh;
@@ -41,6 +58,20 @@ nav{
     align-items: center;
     gap: 10rem;
     flex-wrap: wrap;
+    background-color: rgb(15, 15, 15);
+}
+
+footer {
+    border: 2px red;
+    height: 15vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 5rem 0 0 0;
 }
 
 @media screen and (max-width: 560px) {
@@ -48,8 +79,84 @@ nav{
     gap: 10;
    } 
 }
+
 nav > ul{
     display: flex;
     gap: 2rem;
+    list-style: none;
+}
 
+nav > ul > li > button {
+    border: 0px solid black;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+section {
+    text-align: center;
+    margin: 5% 20%;
+}
+
+img {
+    height: auto;
+    width: 80%;
+}
+
+figure.player {
+    border: 1px solid black;
+    margin: 0% 20%;
+    padding: 3% 0;
+    width: auto;
+    background-color: rgb(22, 22, 22);
+    border-radius: 15px;
+}
+
+figure > h3 {
+    margin: 0% 0%;
+    /*border: 1px solid black;*/
+}
+
+figure > p {
+    margin: 1% 0;
+    /*padding: 0px;
+    border: 1px solid black;*/
+}
+
+figure > img {
+    margin: 5% 0 0 0;
+    height: auto;
+    width: 75%;
+    border-radius: 5px;
+    /*border: 2px solid rgb(255, 255, 255);*/
+}
+
+figure > hr {
+    margin: 5% 0;
+    /*border: 1px solid black;*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    margin: 0 25% 0 0;
+}
+
+#tituloPag {
+    margin: 7% 0;
+    font-size: 32px;
+}
+
+footer > p {
+    color: aquamarine;
+    text-align: center;
+    justify-content: center;
+    margin: -30px;
 }

@@ -5,7 +5,7 @@
      "name": "Leo Messi",
      "age": 35,
      "team": "Paris Saint Germain",
-     "foot": "Zurdo",
+     "foot": "Left",
      "nation": "Argentina",
      "img": "https://wallpapercave.com/wp/wp10979250.jpg"
     },
@@ -14,7 +14,7 @@
      "name": "Neymar Jr",
      "age": 30,
      "team": "Paris Saint Germain",
-     "foot": "Diestro",
+     "foot": "Right",
      "nation": "Brasil",
      "img": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt46fe60424054c09a/62b38597064ea90e67ed933b/Neymar_PSG_2021-22.jpg"
     },
@@ -23,7 +23,7 @@
      "name": "Robert Lewandowski",
      "age": 34,
      "team": "FC Barcelona",
-     "foot": "Diestro",
+     "foot": "Right",
      "nation": "Polonia",
      "img": "https://backend.keepup.com.au/wp-content/uploads/2022/07/e2i3defne5ba195evjp4mr737.jpg"
     },
@@ -32,7 +32,7 @@
      "name": "Erling Haaland",
      "age": 22,
      "team": "Manchester City",
-     "foot": "Zurdo",
+     "foot": "Left",
      "nation": "Noruega",
      "img": "https://wallpapercave.com/wp/wp11336460.jpg"
     },
@@ -41,7 +41,7 @@
      "name": "Mohamed Salah",
      "age": 30,
      "team": "Liverpool",
-     "foot": "Zurdo",
+     "foot": "Left",
      "nation": "Egipto",
      "img": "https://wallpapers.com/images/hd/mohamed-salah-in-action-ksghg52hmgdkvw7v.jpg"
     },
@@ -50,7 +50,7 @@
      "name": "Karim Benzema",
      "age": 34,
      "team": "Real Madrid",
-     "foot": "Diestro",
+     "foot": "Right",
      "nation": "Francés",
      "img": "https://icdn.football-espana.net/wp-content/uploads/2020/10/Benzema.jpg"
     }
@@ -73,7 +73,7 @@
     "manager": "Christophe Galtie",
     "country": "France",
     "competition": "Ligue 1",
-    "shield": "https://images.wallpapersden.com/image/download/karim-benzema-4k-real-madrid_bWZnbGmUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+    "shield": "/public/images/PSG.png"
     },
     {
     "id": 3,
@@ -81,7 +81,7 @@
     "manager": "Pep Guardiola",
     "country": "England",
     "competition": "Premier League",
-    "shield": "https://images.wallpapersden.com/image/download/karim-benzema-4k-real-madrid_bWZnbGmUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+    "shield": "/public/images/ManCity.png"
     },
     {
     "id": 4,
@@ -89,7 +89,7 @@
     "manager": "Massimiliano Allegri",
     "country": "Italy",
     "competition": "Serie A",
-    "shield": "https://images.wallpapersden.com/image/download/karim-benzema-4k-real-madrid_bWZnbGmUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+    "shield": "/public/images/Juventus.png"
     },
     {
     "id": 5,
@@ -97,7 +97,7 @@
     "manager": "Julian Nagelsmann",
     "country": "Germany",
     "competition": "Bundesliga",
-    "shield": "https://images.wallpapersden.com/image/download/karim-benzema-4k-real-madrid_bWZnbGmUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+    "shield": "/public/images/Bayern.png"
     },
     {
     "id": 6,
@@ -105,7 +105,7 @@
     "manager": "Roger Schmidt",
     "country": "Portugal",
     "competition": "Liga NOS",
-    "shield": "https://images.wallpapersden.com/image/download/karim-benzema-4k-real-madrid_bWZnbGmUmZqaraWkpJRmbmdlrWZlbWU.jpg"
+    "shield": "/public/images/Benfica.png"
     }
     ]
 }

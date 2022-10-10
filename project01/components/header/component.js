@@ -12,7 +12,7 @@
  export const initHeader = () => {
  const navbar = `
  <nav>
-         <h1>Football Web</h1>
+         <h1 id="logo"><a href="index.html">Football Web</a></h1>
          <ul>
            <li>
              <button id="home">Home
@@ -23,8 +23,11 @@
            <li>
             <button id="teams">Teams
            </li>
+           <li>
+            <button id="contact">Contact
+           </li>
        </ul>
-      </nav>
+</nav>
 `
 return navbar
  } 
