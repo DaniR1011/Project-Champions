@@ -50,5 +50,5 @@ const printPLayers = (players) => {
       `  
       app.innerHTML += playerFigure;
     }
-    app.innerHTML += `<br><br><a href="#">Back to top</a>`
+    app.innerHTML += `<br><a href="#">Back to top</a>`
 }
